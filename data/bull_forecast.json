@@ -1,0 +1,35 @@
+[
+  {
+    "Year": "2026",
+    "Revenue": 109490.17657187226,
+    "EBITDA": 22938.551662182963,
+    "NetIncome": 11789.788612270357,
+    "Cash_End": 13904.441412272387,
+    "NetDebt_to_EBITDA": 1.3800319241565862,
+    "Cash_Recon_Error": 9.094947017729282e-13,
+    "BalanceError": 2.9103830456733704e-11,
+    "DiagnosticStatus": "PASS"
+  },
+  {
+    "Year": "2027",
+    "Revenue": 113159.72349645477,
+    "EBITDA": 24501.589216268276,
+    "NetIncome": 12934.163185152946,
+    "Cash_End": 21873.551129290165,
+    "NetDebt_to_EBITDA": 0.9079951375537029,
+    "Cash_Recon_Error": -3.637978807091713e-12,
+    "BalanceError": 0.0,
+    "DiagnosticStatus": "PASS"
+  },
+  {
+    "Year": "2028",
+    "Revenue": 116796.84938164488,
+    "EBITDA": 25522.701314805458,
+    "NetIncome": 13337.018777215091,
+    "Cash_End": 31086.889472289684,
+    "NetDebt_to_EBITDA": 0.4542812841281998,
+    "Cash_Recon_Error": 3.637978807091713e-12,
+    "BalanceError": 0.0,
+    "DiagnosticStatus": "PASS"
+  }
+]

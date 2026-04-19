@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Disney Scenario Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <div class="hero-text">
+        <h1>The Walt Disney Company</h1>
+        <p>FIN 4453 Capstone Scenario Dashboard</p>
+      </div>
+      <div class="hero-meta" id="runMeta"></div>
+    </header>
+
+    <section class="controls panel">
+      <div class="control-group">
+        <label for="scenarioSelect">Scenario</label>
+        <select id="scenarioSelect"></select>
+      </div>
+
+      <div class="control-group">
+        <label for="metricSelect">Trend Metric</label>
+        <select id="metricSelect">
+          <option value="Revenue">Revenue</option>
+          <option value="EBITDA">EBITDA</option>
+          <option value="NetIncome">Net Income</option>
+          <option value="Cash_End">Ending Cash</option>
+          <option value="NetDebt_to_EBITDA">Net Debt / EBITDA</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="section-block">
+      <h2 class="section-title">Key Performance Indicators</h2>
+      <section class="cards" id="kpiCards"></section>
+    </section>
+
+    <section class="grid-two">
+      <section class="panel">
+        <h2>Forecast Trend</h2>
+        <div class="chart-wrap">
+          <canvas id="trendChart"></canvas>
+        </div>
+        <p class="small-note">
+          Forecast trend for the selected scenario across the 2026–2028 horizon.
+        </p>
+      </section>
+
+      <section class="panel diagnostics-panel">
+        <h2>Audit & Diagnostics</h2>
+        <div id="diagnosticsBox"></div>
+      </section>
+    </section>
+
+    <section class="panel">
+      <h2>Scenario Comparison Chart</h2>
+      <div class="comparison-chart-controls">
+        <label for="comparisonMetricSelect">Comparison Metric</label>
+        <select id="comparisonMetricSelect">
+          <option value="revenue_final">2028 Revenue</option>
+          <option value="ebitda_final">2028 EBITDA</option>
+          <option value="cfo_final">2028 Cash from Operations</option>
+          <option value="min_cash_over_horizon">Minimum Cash</option>
+          <option value="ending_revolver_final">2028 Ending Revolver</option>
+          <option value="peak_net_debt_to_ebitda">Peak Net Debt / EBITDA</option>
+        </select>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="comparisonChart"></canvas>
+      </div>
+      <p class="small-note">
+        Cross-scenario comparison drawn directly from exported authoritative outputs.
+      </p>
+    </section>
+
+    <section class="panel">
+      <h2>Scenario Comparison Table</h2>
+      <div id="comparisonTable"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Selected Scenario Forecast</h2>
+      <div id="forecastTable"></div>
+    </section>
+
+    <footer class="footer-note">
+      Dashboard values are rendered from exported authoritative model outputs and are not manually adjusted.
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,279 @@
+[
+  {
+    "scenario": "base",
+    "scenario_label": "Base",
+    "run_id": "DIS_20260418_235738",
+    "run_timestamp": "2026-04-18 23:57:38",
+    "model_version": "Disney_1145_Rosenberg_Mauad_Capstone",
+    "data_version": "DIS_quarterly_statements_xlsx",
+    "assumption_set_version": "Disney_capstone_scenarios_v1",
+    "environment_ref": "python_local_notebook",
+    "status": "success",
+    "hard_pass": true,
+    "max_balance_error": 2.9103830456733704e-11,
+    "max_cash_recon_error": 1.3642420526593924e-12,
+    "notes": "Reference case using Disney-based operating and financing assumptions.",
+    "tags": [
+      "core",
+      "reference"
+    ]
+  },
+  {
+    "scenario": "bull",
+    "scenario_label": "Bull",
+    "run_id": "DIS_20260418_235738",
+    "run_timestamp": "2026-04-18 23:57:38",
+    "model_version": "Disney_1145_Rosenberg_Mauad_Capstone",
+    "data_version": "DIS_quarterly_statements_xlsx",
+    "assumption_set_version": "Disney_capstone_scenarios_v1",
+    "environment_ref": "python_local_notebook",
+    "status": "success",
+    "hard_pass": true,
+    "max_balance_error": 2.9103830456733704e-11,
+    "max_cash_recon_error": 3.637978807091713e-12,
+    "notes": "Better DTC monetization, stronger operating leverage, and slightly more favorable financing conditions.",
+    "tags": [
+      "core",
+      "favorable"
+    ]
+  },
+  {
+    "scenario": "bear",
+    "scenario_label": "Bear",
+    "run_id": "DIS_20260418_235738",
+    "run_timestamp": "2026-04-18 23:57:38",
+    "model_version": "Disney_1145_Rosenberg_Mauad_Capstone",
+    "data_version": "DIS_quarterly_statements_xlsx",
+    "assumption_set_version": "Disney_capstone_scenarios_v1",
+    "environment_ref": "python_local_notebook",
+    "status": "success",
+    "hard_pass": true,
+    "max_balance_error": 2.9103830456733704e-11,
+    "max_cash_recon_error": 1.8189894035458565e-12,
+    "notes": "Softer demand, weaker pricing, moderate margin pressure, and somewhat tighter financing conditions.",
+    "tags": [
+      "core",
+      "adverse"
+    ]
+  },
+  {
+    "scenario": "liquidity_stress",
+    "scenario_label": "Liquidity Stress",
+    "run_id": "DIS_20260418_235738",
+    "run_timestamp": "2026-04-18 23:57:38",
+    "model_version": "Disney_1145_Rosenberg_Mauad_Capstone",
+    "data_version": "DIS_quarterly_statements_xlsx",
+    "assumption_set_version": "Disney_capstone_scenarios_v1",
+    "environment_ref": "python_local_notebook",
+    "status": "success",
+    "hard_pass": true,
+    "max_balance_error": 0.0,
+    "max_cash_recon_error": 1.8189894035458565e-12,
+    "notes": "Severe downside case combining demand shock, margin compression, working-capital deterioration, and constrained financing conditions.",
+    "tags": [
+      "core",
+      "stress",
+      "liquidity"
+    ]
+  },
+  {
+    "scenario": "cruise_boom",
+    "scenario_label": "Cruise Boom",
+    "run_id": "DIS_20260418_235738",
+    "run_timestamp": "2026-04-18 23:57:38",
+    "model_version": "Disney_1145_Rosenberg_Mauad_Capstone",
+    "data_version": "DIS_quarterly_statements_xlsx",
+    "assumption_set_version": "Disney_capstone_scenarios_v1",
+    "environment_ref": "python_local_notebook",
+    "status": "success",
+    "hard_pass": true,
+    "max_balance_error": 2.9103830456733704e-11,
+    "max_cash_recon_error": 1.8189894035458565e-12,
+    "notes": "Stronger-than-expected demand and pricing in Disney Cruise Line and the broader Experiences segment, supporting higher margins but requiring incremental capital investment.",
+    "tags": [
+      "disney-specific",
+      "experiences",
+      "growth"
+    ]
+  },
+  {
+    "scenario": "abu_dhabi_cancellation",
+    "scenario_label": "Abu Dhabi Cancellation",
+    "run_id": "DIS_20260418_235738",
+    "run_timestamp": "2026-04-18 23:57:38",
+    "model_version": "Disney_1145_Rosenberg_Mauad_Capstone",
+    "data_version": "DIS_quarterly_statements_xlsx",
+    "assumption_set_version": "Disney_capstone_scenarios_v1",
+    "environment_ref": "python_local_notebook",
+    "status": "success",
+    "hard_pass": true,
+    "max_balance_error": 2.9103830456733704e-11,
+    "max_cash_recon_error": 1.8189894035458565e-12,
+    "notes": "Loss of expected long-run Experiences expansion benefits and geographic diversification from Abu Dhabi, with limited direct capital relief relative to a self-funded project.",
+    "tags": [
+      "disney-specific",
+      "geopolitical",
+      "experiences"
+    ]
+  },
+  {
+    "scenario": "streaming_profit_inflection",
+    "scenario_label": "Streaming Profit Inflection",
+    "run_id": "DIS_20260418_235738",
+    "run_timestamp": "2026-04-18 23:57:38",
+    "model_version": "Disney_1145_Rosenberg_Mauad_Capstone",
+    "data_version": "DIS_quarterly_statements_xlsx",
+    "assumption_set_version": "Disney_capstone_scenarios_v1",
+    "environment_ref": "python_local_notebook",
+    "status": "success",
+    "hard_pass": true,
+    "max_balance_error": 2.9103830456733704e-11,
+    "max_cash_recon_error": 3.637978807091713e-12,
+    "notes": "Disney streaming economics inflect more positively through higher monetization, improved pricing discipline, and better cost absorption across DTC platforms.",
+    "tags": [
+      "disney-specific",
+      "streaming",
+      "profitability"
+    ]
+  },
+  {
+    "scenario": "streaming_price_war",
+    "scenario_label": "Streaming Price War",
+    "run_id": "DIS_20260418_235738",
+    "run_timestamp": "2026-04-18 23:57:38",
+    "model_version": "Disney_1145_Rosenberg_Mauad_Capstone",
+    "data_version": "DIS_quarterly_statements_xlsx",
+    "assumption_set_version": "Disney_capstone_scenarios_v1",
+    "environment_ref": "python_local_notebook",
+    "status": "success",
+    "hard_pass": true,
+    "max_balance_error": 2.9103830456733704e-11,
+    "max_cash_recon_error": 1.8189894035458565e-12,
+    "notes": "Competitive pressure in streaming leads to weaker pricing discipline, heavier promotional intensity, and lower margin conversion despite modest subscriber resilience.",
+    "tags": [
+      "disney-specific",
+      "streaming",
+      "competition"
+    ]
+  },
+  {
+    "scenario": "espn_dtc_success",
+    "scenario_label": "ESPN DTC Success",
+    "run_id": "DIS_20260418_235738",
+    "run_timestamp": "2026-04-18 23:57:38",
+    "model_version": "Disney_1145_Rosenberg_Mauad_Capstone",
+    "data_version": "DIS_quarterly_statements_xlsx",
+    "assumption_set_version": "Disney_capstone_scenarios_v1",
+    "environment_ref": "python_local_notebook",
+    "status": "success",
+    "hard_pass": true,
+    "max_balance_error": 2.9103830456733704e-11,
+    "max_cash_recon_error": 3.637978807091713e-12,
+    "notes": "ESPN direct-to-consumer execution exceeds expectations, supporting stronger monetization, healthier segment mix, and improved operating leverage.",
+    "tags": [
+      "disney-specific",
+      "sports",
+      "streaming"
+    ]
+  },
+  {
+    "scenario": "sports_rights_inflation",
+    "scenario_label": "Sports Rights Inflation",
+    "run_id": "DIS_20260418_235738",
+    "run_timestamp": "2026-04-18 23:57:38",
+    "model_version": "Disney_1145_Rosenberg_Mauad_Capstone",
+    "data_version": "DIS_quarterly_statements_xlsx",
+    "assumption_set_version": "Disney_capstone_scenarios_v1",
+    "environment_ref": "python_local_notebook",
+    "status": "success",
+    "hard_pass": true,
+    "max_balance_error": 0.0,
+    "max_cash_recon_error": 1.8189894035458565e-12,
+    "notes": "Sports programming and rights costs rise faster than expected, compressing margins and limiting operating leverage in the Sports segment.",
+    "tags": [
+      "disney-specific",
+      "sports",
+      "cost-pressure"
+    ]
+  },
+  {
+    "scenario": "sora_loss",
+    "scenario_label": "Sora Deal Loss",
+    "run_id": "DIS_20260418_235738",
+    "run_timestamp": "2026-04-18 23:57:38",
+    "model_version": "Disney_1145_Rosenberg_Mauad_Capstone",
+    "data_version": "DIS_quarterly_statements_xlsx",
+    "assumption_set_version": "Disney_capstone_scenarios_v1",
+    "environment_ref": "python_local_notebook",
+    "status": "success",
+    "hard_pass": true,
+    "max_balance_error": 0.0,
+    "max_cash_recon_error": 3.637978807091713e-12,
+    "notes": "Loss of expected strategic and monetization benefits from the Sora relationship, creating modest pressure on growth and operating efficiency rather than a major balance-sheet shock.",
+    "tags": [
+      "disney-specific",
+      "technology",
+      "content"
+    ]
+  },
+  {
+    "scenario": "ai_content_efficiency",
+    "scenario_label": "AI Content Efficiency",
+    "run_id": "DIS_20260418_235738",
+    "run_timestamp": "2026-04-18 23:57:38",
+    "model_version": "Disney_1145_Rosenberg_Mauad_Capstone",
+    "data_version": "DIS_quarterly_statements_xlsx",
+    "assumption_set_version": "Disney_capstone_scenarios_v1",
+    "environment_ref": "python_local_notebook",
+    "status": "success",
+    "hard_pass": true,
+    "max_balance_error": 0.0,
+    "max_cash_recon_error": 1.8189894035458565e-12,
+    "notes": "AI-enabled content and workflow efficiencies improve production economics and reduce operating overhead without materially changing demand.",
+    "tags": [
+      "disney-specific",
+      "technology",
+      "efficiency"
+    ]
+  },
+  {
+    "scenario": "competitive_pressure",
+    "scenario_label": "Competitive Pressure",
+    "run_id": "DIS_20260418_235738",
+    "run_timestamp": "2026-04-18 23:57:38",
+    "model_version": "Disney_1145_Rosenberg_Mauad_Capstone",
+    "data_version": "DIS_quarterly_statements_xlsx",
+    "assumption_set_version": "Disney_capstone_scenarios_v1",
+    "environment_ref": "python_local_notebook",
+    "status": "success",
+    "hard_pass": true,
+    "max_balance_error": 2.9103830456733704e-11,
+    "max_cash_recon_error": 1.3642420526593924e-12,
+    "notes": "Higher content and distribution pressure from intensified media competition, reducing pricing power and margins.",
+    "tags": [
+      "disney-specific",
+      "competition",
+      "media"
+    ]
+  },
+  {
+    "scenario": "consumer_pullback",
+    "scenario_label": "Consumer Pullback",
+    "run_id": "DIS_20260418_235738",
+    "run_timestamp": "2026-04-18 23:57:38",
+    "model_version": "Disney_1145_Rosenberg_Mauad_Capstone",
+    "data_version": "DIS_quarterly_statements_xlsx",
+    "assumption_set_version": "Disney_capstone_scenarios_v1",
+    "environment_ref": "python_local_notebook",
+    "status": "success",
+    "hard_pass": true,
+    "max_balance_error": 0.0,
+    "max_cash_recon_error": 9.094947017729282e-13,
+    "notes": "Broader macro weakness reduces discretionary consumer spending on parks, cruises, and streaming, pressuring volume, pricing, and cash conversion.",
+    "tags": [
+      "macro",
+      "consumer",
+      "downside"
+    ]
+  }
+]
